@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <!-- Registration Form Container -->
+    <div class="form-container">
+        <h1 class="form-title">Nike</h1>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="email" style="font-weight: 700;">Email:</label>
+                <i class='bx bxs-envelope email-icon'></i>
+                <input type="email" id="email" name="email" required>
+                
+            </div>
+            <div class="form-group">
+                <label for="password" style="font-weight: 700;" >Password:</label>
+                <i class='bx bxs-lock-alt  email-icon' ></i>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword" style="font-weight: 700;">Confirm Password:</label>
+                <i class='bx bxs-low-vision email-icon' ></i>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+
+            <button type="submit">Login</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
